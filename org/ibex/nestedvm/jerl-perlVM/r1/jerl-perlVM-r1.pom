@@ -1,0 +1,20 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ibex.nestedvm</groupId>
+  <name>jerl</name>
+  <version>r1</version>
+  <packaging>jar</packaging>
+  <url>https://code.google.com/p/jerl/</url>
+  <artifactId>jerl-perlVM</artifactId>
+  <description>Run Perl within Java</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.ibex.nestedvm</groupId>
+  		<artifactId>jerl</artifactId>
+  		<version>r6.0.1</version>
+  	</dependency>
+  </dependencies>
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
